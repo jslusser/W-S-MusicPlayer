@@ -4,6 +4,7 @@
 //
 //  Created by James Slusser on 7/20/17.
 //  Copyright © 2017 James Slusser. All rights reserved.
+// https://www.weheartswift.com/introduction-apple-watch-apps/
 //
 
 import WatchKit
