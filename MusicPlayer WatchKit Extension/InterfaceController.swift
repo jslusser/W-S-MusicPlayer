@@ -43,12 +43,13 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate {
     override func awake(withContext context: Any?) {
         super.awake(withContext: context)
         
-        crownSequencer.focus()
-        crownSequencer.delegate = self
-        
         volumeSlider.setNumberOfSteps(numberOfSteps)
         
-        // Configure interface objects here.
+        crownSequencer.focus()
+        crownSequencer.delegate = self
+    
+        
+    // Configure interface objects here.
     }
     
     func crownDidRotate(_ crownSequencer: WKCrownSequencer?, rotationalDelta: Double) {
